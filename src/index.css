@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Heebo', sans-serif;
+  }
+}
+
+/* about component */
+.group:hover > .group-hover\:text-white {
+  color: white;
+}
+
