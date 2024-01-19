@@ -15,7 +15,7 @@ const App=()=>{
       <div className="w-full flex justify-center items-stretch p-8">
         <Course/>
       </div>
-      <div className="w-full flex justify-center items-stretch pt-8 px-8 pb-2 w-[100%] bg-[rgb(24,29,56)]"><Footer/></div>
+      <div className="w-full flex justify-center items-stretch pt-8 px-8 pb-2 w-[100%] bg-[rgb(24,29,56)]"><Footer/></div> 
     </div>
   )
 }
