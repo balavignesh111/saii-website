@@ -11,6 +11,15 @@ export default {
     extend: {
       backgroundImage: {
         'aboutImage' : "url('../public/assets/about.jpg')"
+      },
+      fontSize: {
+        calc : 'calc(1.375rem + 1.5vw)'
+      },
+      height: {
+        calc : 'calc(100vh-5rem)'
+      },
+      backgroundColor:{
+        imageOverlay : 'rgba(24, 29, 56, .7)'
       }
     },
     colors: {
