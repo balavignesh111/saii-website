@@ -16,10 +16,11 @@ const Applied = () => {
         <div className="w-full lg:w-[45%] flex flex-col items-start justify-center gap-8 text-_light_blue">
           <h1 className="lg:text-4xl sm:text-2xl text-xl">Applied AI Course</h1>
           <p className="lg:text-xl sm:text-base">
-            Enroll now & Get trained in skills that are essential to secure your
-            dream job in our Applied AI course. The course offers 100% Assured
-            Placement, In leading tech companies with a salary No less than 4
-            LPA. Feel free to get in touch with us for more details
+            Navigate the intersection of innovation and intelligence as you dive
+            into the realm of Applied AI. From predicting market trends to
+            optimizing resource allocation, this course empowers you to harness
+            the potential of AI in solving real-world challenges with precision
+            and insight.
           </p>
           <span className="text-xl sm:text-base">Avail Your Seats Now!</span>
         </div>
@@ -85,47 +86,52 @@ const Applied = () => {
           <div className="justify-items-center place-items-start grid grid-cols-1 lg:grid-cols-2 gap-[2.5rem] justify-center w-full p-4">
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 1-5 - Web Fundamentals
+                Week 1-5 -Foundations of AI
               </h2>
               <p className="w-full">
-                Introduction to Web, Developer Tools, Fundamentals of Web
-                Development using HTML, CSS. Version Control using Git & GitHub
+                Introduction to Artificial Intelligence, Machine Learning
+                Fundamentals, Data Preprocessing and Feature Engineering,
+                Supervised Learning Algorithms, Unsupervised Learning Algorithms
               </p>
             </div>
             <div className="place-self-start ">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 11-15 - JavaScript on the Browser
+                Week 6-10 - Advanced AI Techniques
               </h2>
               <p className="w-full">
-                Advanced JavaScript, Advanced CSS Working with DOM API & Local
-                Storage
+                Deep Learning Basics, Neural Networks and Deep Learning,
+                Convolutional Neural Networks (CNNs), Recurrent Neural Networks
+                (RNNs), Natural Language Processing (NLP) and Text Mining
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 21-25 - Sever Side Development
+                Week 11-15 - AI Applications
               </h2>
               <p className="w-full">
-                HTTP Protocols, Node.js & Node.js architecture, Express.js,
-                MongoDB & Mongoose ORM, OAuth using Passport.js
+                Image Recognition and Computer Vision, Recommender Systems, Time
+                Series Analysis and Forecasting, AI in Healthcare, AI Ethics and
+                Responsible AI Practices
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 6-10 - Programming with JavaScript
+                Week 16-20 - AI Project Development
               </h2>
               <p className="w-full">
-                Introduction to Programming, Functions and OOP Programming, Data
-                Structures and Algorithms with JavaScript
+                Capstone Project: Applied AI Solution Development, Project
+                Planning and Management, Presentation and Documentation Skills,
+                Final Project Presentation and Evaluation
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 16-20 - Working with React
+                Week 21-25 - Industry Integration and Emerging Trends
               </h2>
               <p className="w-full">
-                Introduction to React and React Ecosystem, UI Libraries,
-                Deployment & Unit Testing
+                Industry Guest Lectures and Case Studies, Emerging Trends in
+                Applied AI, Career Development and Job Placement Assistance, AI
+                in the Future: Challenges and Opportunities
               </p>
             </div>
             <div className="place-self-start">
@@ -133,9 +139,9 @@ const Applied = () => {
                 Week 26-28 - Interview Preparation
               </h2>
               <p className="w-full">
-                Projects and Peer Programming - Work on collaborative projects
-                exploring all concepts and have pair programming sessions to
-                improve the skills
+                Mock Interviews and Feedback Sessions, Resume Building and Job
+                Search Strategies, Soft Skills Development, Networking and
+                Professional Development Opportunities
               </p>
             </div>
           </div>

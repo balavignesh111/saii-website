@@ -49,13 +49,13 @@ const Slider = () => {
               md:ml-0  text-_light_blue"
               >
                 <div className="flex flex-col gap-4">
-                  <h5 className="uppercase text-lg font-bold mb-3 text-[#1DC1D1]">
+                  <h5 className="uppercase text-sm md:text-xl font-bold mb-3 text-[#1DC1D1]">
                     Explore, Learn, Excel.
                   </h5>
-                  <h1 className="text-4xl md:text-6xl font-extrabold ">
+                  <h1 className="text-md md:text-6xl font-extrabold ">
                     Your Passport to Knowledge
                   </h1>
-                  <p className="text-lg mb-4 pb-2 ">
+                  <p className="text-xs md:text-lg mb-4 pb-2 ">
                     In a rapidly evolving world, learning is the key to
                     unlocking new horizons and realizing your full potential.
                     With our innovative platform, we offer you a personalized
@@ -63,10 +63,10 @@ const Slider = () => {
                     own pace and on your terms.
                   </p>
                   <div className="flex gap-4">
-                    <button className="h-[3.5rem] w-[9rem] bg-[#1DC1D1]">
+                    <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#1DC1D1]">
                       Read More
                     </button>
-                    <button className="h-[3.5rem] w-[9rem] bg-[#fff] text-light_grey">
+                    <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#fff] text-light_grey">
                       Join Now
                     </button>
                   </div>
@@ -89,21 +89,21 @@ const Slider = () => {
             <div className="container">
               <div className="flex flex-col  lg:w-[40rem] lg:ml-[5rem] lg:mt-[10rem] md:flex-row md:mt-[4rem] sm:mt-5 md:ml-0 sm:ml-3 text-_light_blue">
                 <div className="flex flex-col gap-4">
-                  <h5 className="uppercase text-lg font-bold mb-3 text-[#1DC1D1]">
+                  <h5 className="uppercase text-sm md:text-xl font-bold mb-3 text-[#1DC1D1]">
                     Best Online Courses
                   </h5>
-                  <h1 className="text-4xl md:text-6xl font-extrabold">
+                  <h1 className="text-md md:text-6xl font-extrabold">
                     Learning Made Personal, Results Made Remarkable.
                   </h1>
-                  <p className="text-lg mb-4 pb-2">
+                  <p className="text-sm md:text-lg mb-4 pb-2">
                     Together, we'll explore, learn, and grow, all while
                     redefining the way education is experienced.
                   </p>
                   <div className="flex gap-4">
-                    <button className="h-[3.5rem] w-[9rem] bg-[#1DC1D1]">
+                    <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#1DC1D1]">
                       Read More
                     </button>
-                    <button className="h-[3.5rem] w-[9rem] bg-[#fff] text-light_grey">
+                    <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#fff] text-light_grey">
                       Join Now
                     </button>
                   </div>

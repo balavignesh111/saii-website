@@ -5,7 +5,7 @@ import Footer from "./components/home-page/footer.component";
 import Navbar from "./components/home-page/navbar";
 import Slider from "./components/home-page/carousel";
 import Instructor from "./components/home-page/instructors";
-import Testiomonial from "./components/home-page/testimonal";
+import Testimonial from "./components/home-page/testimonal";
 
 const App = () => {
   return (
@@ -25,8 +25,8 @@ const App = () => {
       <div className="w-full flex justify-center items-stretch px-[10%]">
         <Instructor />
       </div>
-      <div className="w-full flex justify-center items-stretch px-[10%] ">
-        <Testiomonial />
+      <div className="w-full flex justify-center items-stretch ">
+        <Testimonial />
       </div>
       <div className="w-full flex justify-center items-stretch  px-14 mt-6 bg-[rgb(24,29,56)]">
         <Footer />

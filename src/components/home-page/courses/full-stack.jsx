@@ -20,10 +20,11 @@ const Fullstack = () => {
             Full stack Developer Course
           </h1>
           <p className="lg:text-xl sm:text-base">
-            Enroll now & Get trained in skills that are essential to secure your
-            dream job in our full-stack developer course. The course offers 100%
-            Assured Placement, In leading tech companies with a salary No less
-            than 4 LPA. Feel free to get in touch with us for more details
+            Unlock the power of versatility and creativity as you master the art
+            of Full-Stack Development. From designing captivating user
+            interfaces to building scalable backend systems, this course
+            empowers you to bring your digital vision to life with seamless
+            integration and functionality.
           </p>
           <span className="text-xl sm:text-base">Avail Your Seats Now!</span>
         </div>
@@ -92,44 +93,46 @@ const Fullstack = () => {
                 Week 1-5 - Web Fundamentals
               </h2>
               <p className="w-full">
-                Introduction to Web, Developer Tools, Fundamentals of Web
-                Development using HTML, CSS. Version Control using Git & GitHub
+                Introduction to Web Development, Developer Tools, Fundamentals
+                of HTML, CSS, Version Control using Git & GitHub
               </p>
             </div>
             <div className="place-self-start ">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 11-15 - JavaScript on the Browser
+                Week 6-10 - Front-End Development
               </h2>
               <p className="w-full">
-                Advanced JavaScript, Advanced CSS Working with DOM API & Local
-                Storage
+                Advanced CSS, and JavaScript Fundamentals, Working with API &
+                Local Storage, Responsive Web Design
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 21-25 - Sever Side Development
+                Week 11-15 - Back-End Development
               </h2>
               <p className="w-full">
-                HTTP Protocols, Node.js & Node.js architecture, Express.js,
-                MongoDB & Mongoose ORM, OAuth using Passport.js
+                Introduction to Server-Side Programming, Node.js & Express.js,
+                Database Fundamentals (SQL & NoSQL), RESTful APIs
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 6-10 - Programming with JavaScript
+                Week 16-20 - Full-Stack Frameworks
               </h2>
               <p className="w-full">
-                Introduction to Programming, Functions and OOP Programming, Data
-                Structures and Algorithms with JavaScript
+                Introduction to Full-Stack Development, Building Applications
+                with MERN Stack (MongoDB, Express.js, React, Node.js),
+                Authentication and Authorization
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 16-20 - Working with React
+                Week 21-25 - Industry Integration and Emerging Trends
               </h2>
               <p className="w-full">
-                Introduction to React and React Ecosystem, UI Libraries,
-                Deployment & Unit Testing
+                Industry Guest Lectures and Case Studies, Emerging Trends in
+                Full-Stack Development, Career Development and Job Placement
+                Assistance, Future Directions in Full-Stack Technologies
               </p>
             </div>
             <div className="place-self-start">
@@ -137,9 +140,8 @@ const Fullstack = () => {
                 Week 26-28 - Interview Preparation
               </h2>
               <p className="w-full">
-                Projects and Peer Programming - Work on collaborative projects
-                exploring all concepts and have pair programming sessions to
-                improve the skills
+              Mock Interviews and Feedback Sessions, Resume Building and Job Search Strategies, 
+              Soft Skills Development, Networking and Professional Development Opportunities
               </p>
             </div>
           </div>

@@ -21,32 +21,32 @@ const Contact = () => {
               <div className="flex justify-around items-center gap-2">
                 <IoCall className="text-[white] bg-[#1DC1D1]   hover:text-black cursor-pointer text-[5rem] p-[1rem] rounded-tl-[1rem] rounded-br-[1rem]"></IoCall>
                 <div>
-                  <span className="text-black text-[20px]">+91 9999988888</span>
+                  <span className="text-black text-[20px] font-semibold">
+                    +91 9363043070
+                  </span>
                   <br />
-                  <span className="text-black text-[20px]">+91 9600860934</span>
+                  {/* <span className="text-black text-[20px]">+91 9600860934</span> */}
                 </div>
               </div>
-              <div className=" flex items-center gap-2 ">
-                <div className="flex items-center gap-2">
-                  <MdEmail className="text-[white] bg-[#1DC1D1]   hover:text-black cursor-pointer text-[5rem] p-[1rem] rounded-tl-[1rem] rounded-br-[1rem]"></MdEmail>
-                  <div className="w-full">
-                    <span className="text-black ">
-                      sugunainnovative@gmail.com
-                    </span>
+              <div className=" flex items-center gap-4 ">
+                <div className="flex items-center gap-4">
+                  <MdEmail className="text-[white] bg-[#1DC1D1]  w-[7rem] hover:text-black cursor-pointer text-[5rem] p-[1rem] rounded-tl-[1rem] rounded-br-[1rem]"></MdEmail>
+                  <div className="w-full font-semibold text-xl">
+                    <span className="text-black ">info@saii.in</span>
                   </div>
                 </div>
               </div>
-              <div className="flex  items-center gap-2">
-                <a href="https://www.google.com/maps/place/Suguna+Polytechnic+College/@11.0509439,77.0322591,15z/data=!4m6!3m5!1s0x3ba857bbffffffff:0xfaed96bd33545bc0!8m2!3d11.0509439!4d77.0322591!16s%2Fg%2F1tl7m4b8?entry=ttu">
+              <div className="flex  items-center gap-4">
+                <a href="https://www.google.com/maps/place/SUGUNA+INNOVATION+INSTITUTE/@11.0099469,76.9790353,17z/data=!3m2!4b1!5s0x3ba859b33c2d87ef:0x439dba027315c9de!4m6!3m5!1s0x3ba859b409dbffff:0x16abdcf885125312!8m2!3d11.0099416!4d76.9816102!16s%2Fg%2F11l2xm5vd2?entry=ttu">
                   <FaLocationDot className="text-[white] bg-[#1DC1D1]   hover:text-black cursor-pointer text-[5rem] p-[1rem] rounded-tl-[1rem] rounded-br-[1rem]"></FaLocationDot>
                 </a>
                 <div className="items-center">
                   <span className="text-black font-bold text-[20px]">
-                    Kalapatti Main Rd, near Vinayaka Temple, GKD Nagar,
+                    707,First Floor,suguna corporate office
                   </span>
                   <br />
                   <span className="text-black text-[20px]">
-                    Nehru Nagar West, Coimbatore, Tamil Nadu - 641014
+                    Avinashi Road, Coimbatore, Tamil Nadu
                   </span>
                 </div>
               </div>
@@ -59,8 +59,8 @@ const Contact = () => {
         <div className="w-full ">
           <p className=" p-4 ">
             <iframe
-              className="w-full min-h-[600px] rounded-lg"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.835677029575!2d77.02968417405829!3d11.050943889114977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857bbffffffff%3A0xfaed96bd33545bc0!2sSuguna%20Polytechnic%20College!5e0!3m2!1sen!2sin!4v1707721563276!5m2!1sen!2sin"
+              className="rounded-lg w-full min-h-[600px]"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.381896657479!2d76.97903527588535!3d11.009946854841186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859b409dbffff%3A0x16abdcf885125312!2sSUGUNA%20INNOVATION%20INSTITUTE!5e0!3m2!1sen!2sin!4v1709277815293!5m2!1sen!2sin"
             ></iframe>
           </p>
         </div>

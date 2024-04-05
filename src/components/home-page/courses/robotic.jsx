@@ -18,10 +18,10 @@ const Robotic = () => {
             Robotics Process Automation Course
           </h1>
           <p className="lg:text-xl sm:text-base">
-            Enroll now & Get trained in skills that are essential to secure your
-            dream job in our Robotics course. The course offers 100% Assured
-            Placement, In leading tech companies with a salary No less than 4
-            LPA. Feel free to get in touch with us for more details
+            Become the architect of efficiency as you embark on a journey into
+            the world of RPA. From automating repetitive tasks to orchestrating
+            complex workflows, this course equips you with the tools to
+            revolutionize business processes and drive sustainable growth.
           </p>
           <span className="text-xl sm:text-base">Avail Your Seats Now!</span>
         </div>
@@ -87,47 +87,53 @@ const Robotic = () => {
           <div className="justify-items-center place-items-start grid grid-cols-1 lg:grid-cols-2 gap-[2.5rem] justify-center w-full p-4">
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 1-5 - Web Fundamentals
+                Week 1-5 - RPA Fundamentals
               </h2>
               <p className="w-full">
-                Introduction to Web, Developer Tools, Fundamentals of Web
-                Development using HTML, CSS. Version Control using Git & GitHub
+                Introduction to Robotic Process Automation, RPA Tools and
+                Platforms, Process Discovery and Analysis, Building RPA Bots:
+                Design and Development, Bot Deployment and Maintenance
               </p>
             </div>
             <div className="place-self-start ">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 11-15 - JavaScript on the Browser
+                Week 6-10 - Advanced RPA Techniques
               </h2>
               <p className="w-full">
-                Advanced JavaScript, Advanced CSS Working with DOM API & Local
-                Storage
+                Intelligent Automation and Cognitive RPA, Process Optimization
+                and Scalability, Exception Handling and Error Management,
+                Integrating RPA with APIs and Databases, Security and Compliance
+                in RPA
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 21-25 - Sever Side Development
+                Week 11-15 - RPA Applications
               </h2>
               <p className="w-full">
-                HTTP Protocols, Node.js & Node.js architecture, Express.js,
-                MongoDB & Mongoose ORM, OAuth using Passport.js
+                Use Cases of RPA in Various Industries, Business Process
+                Reengineering with RPA, Case Studies and Real-world
+                Implementations, RPA Governance and Center of Excellence (CoE),
+                Future Trends and Innovations in RPA
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 6-10 - Programming with JavaScript
+                Week 16-20 - RPA Project Development
               </h2>
               <p className="w-full">
-                Introduction to Programming, Functions and OOP Programming, Data
-                Structures and Algorithms with JavaScript
+                Capstone Project: RPA Solution Development, Project Management
+                and Documentation, Presentation Skills and Stakeholder
+                Engagement, Final Project Demonstration and Evaluation
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 16-20 - Working with React
+                Week 21-25 - Industry Integration and Emerging Trends
               </h2>
               <p className="w-full">
-                Introduction to React and React Ecosystem, UI Libraries,
-                Deployment & Unit Testing
+              Guest Lectures from RPA Experts and Practitioners, Industry Workshops and Hands-on Sessions,
+               Career Guidance and Job Placement Support, Networking Opportunities and Industry Partnerships
               </p>
             </div>
             <div className="place-self-start">
@@ -135,9 +141,8 @@ const Robotic = () => {
                 Week 26-28 - Interview Preparation
               </h2>
               <p className="w-full">
-                Projects and Peer Programming - Work on collaborative projects
-                exploring all concepts and have pair programming sessions to
-                improve the skills
+              Mock Interviews and Technical Assessments, Resume Building and Portfolio Development, 
+              Soft Skills Training and Personality Development, Job Search Strategies and Interview Tips
               </p>
             </div>
           </div>
@@ -191,7 +196,7 @@ const Robotic = () => {
                 <div className="w-full  absolute top-[-2rem] left-0 right-0 flex justify-center">
                   <div className="flex items-center mt-1 w-[3.5rem] h-[3rem]  justify-center space-x-3 text-_light_blue bg-[#F0FBFC] ">
                     <button className="bg-[#1DC1D1] text-white p-2 ">
-                    <a href="https://www.linkedin.com/in/banu-a-v/">
+                      <a href="https://www.linkedin.com/in/banu-a-v/">
                         <FaLinkedin />
                       </a>
                     </button>
@@ -242,7 +247,7 @@ const Robotic = () => {
       <div className="w-full px-[10%] pr-5 bg-[#181D38]">
         <Footer />
       </div>
-      </div>
+    </div>
   );
 };
 

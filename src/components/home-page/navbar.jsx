@@ -9,6 +9,11 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
+  // const [isVisible, setIsVisible] = useState(false);
+
+  // const toggleManufacturingDropDown = () => {
+  //   setIsVisible(!isVisible);
+  // };
 
   return (
     <div className="flex flex-row justify-between pl-[2.5rem]  gap-4 w-full min-h-[4.5rem] lg:max-h-[5rem]">
@@ -34,10 +39,16 @@ const Navbar = () => {
           <NavLink to="/about" className="hover:text-[#1DC1D1]">
             ABOUT
           </NavLink>
-          <div className="h-[5rem] flex flex-row items-stretch gap-1 relative group">
-            <div className="h-full flex flex-row items-center justify-center">
+          <NavLink to="/robot" className="hover:text-[#1DC1D1]">
+            ROBOTICS
+          </NavLink>
+          <div className="lg:h-[5rem] sm:h-[1.5rem] flex flex-row items-stretch gap-1 relative group">
+            <div className="h-full flex flex-row items-center justify-center ">
               <p className="hover:text-[#1DC1D1]">COURSES</p>
-              <RiArrowDropDownLine className="h-8 w-6 hover:text-[#1DC1D1]" />
+              <RiArrowDropDownLine
+                // onClick={toggleManufacturingDropDown}
+                className="h-8 w-6 hover:text-[#1DC1D1]"
+              />
             </div>
             <div
               className={`hidden w-[14rem] absolute z-50 top-[5rem] bg-_light_blue flex flex-col gap-2 p-2 gap-y-4 rounded-md  group-hover:flex`}
@@ -58,7 +69,7 @@ const Navbar = () => {
                 Prompt Engineering
               </NavLink>
               <NavLink to="/gen" className="hover:bg-[#e7e5e4]">
-                Generated AI
+                Generative AI
               </NavLink>
             </div>
           </div>

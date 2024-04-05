@@ -9,7 +9,7 @@ const Instructor = () => {
   return (
     <div className="w-full mb-4 px-4 md:px-8 lg:px-24">
       <div className="text-center mt-6">
-        <span className="mb-3 flex items-center justify-center text-lg font-semibold text-[#1DC1D1]">
+        <span className="mb-3 flex items-center justify-center text-[1.5rem] font-semibold text-[#1DC1D1]">
           INSTRUCTORS
         </span>
         <h1 className="flex items-center justify-center text-3xl font-bold">

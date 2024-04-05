@@ -14,7 +14,7 @@ const About = () => {
         </div>
       </div>
       <div className="w-[100%] lg:w-[50%] h-auto flex flex-col justify-between items-start ">
-        <h6 className="text-_blue font-semibold tracking-wide text-[1rem]">
+        <h6 className="text-_blue font-semibold tracking-wide text-[1.5rem]">
           ABOUT US
         </h6>
         <h2 className="text-calc lg:text-[2.12rem] font-semibold font-card-header tracking-wide">

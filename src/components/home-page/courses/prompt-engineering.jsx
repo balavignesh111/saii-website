@@ -18,10 +18,10 @@ const PromptEngineering = () => {
             Prompt Engineering Course
           </h1>
           <p className="lg:text-xl sm:text-base">
-            Enroll now & Get trained in skills that are essential to secure your
-            dream job in our Prompt Engineering course. The course offers 100%
-            Assured Placement, In leading tech companies with a salary No less
-            than 4 LPA. Feel free to get in touch with us for more details
+            From crafting engaging dialogue to understanding user intent, this
+            course delves into the intricacies of Prompt Engineering, where
+            every word has the power to shape meaningful connections and
+            experiences.
           </p>
           <span className="text-xl sm:text-base">Avail Your Seats Now!</span>
         </div>
@@ -87,47 +87,50 @@ const PromptEngineering = () => {
           <div className="justify-items-center place-items-start grid grid-cols-1 lg:grid-cols-2 gap-[2.5rem] justify-center w-full p-4">
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 1-5 - Web Fundamentals
+                Week 1-5 - Foundations of Prompt Engineering
               </h2>
               <p className="w-full">
-                Introduction to Web, Developer Tools, Fundamentals of Web
-                Development using HTML, CSS. Version Control using Git & GitHub
+                Introduction to Conversational AI, Natural Language
+                Understanding, Dialog Management, Introduction to Language
+                Models
               </p>
             </div>
             <div className="place-self-start ">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 11-15 - JavaScript on the Browser
+                Week 6-10 - Advanced Prompt Engineering Techniques
               </h2>
               <p className="w-full">
-                Advanced JavaScript, Advanced CSS Working with DOM API & Local
-                Storage
+                Fine-Tuning Language Models, Contextual Understanding, Handling
+                Ambiguity in Conversations, Error Handling and Correction
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 21-25 - Sever Side Development
+                Week 11-15 - Dialogue Generation
               </h2>
               <p className="w-full">
-                HTTP Protocols, Node.js & Node.js architecture, Express.js,
-                MongoDB & Mongoose ORM, OAuth using Passport.js
+                Sequence-to-Sequence Models, Response Generation Strategies,
+                Personalization and Customization in Dialogue Systems,
+                Multi-Turn Conversations
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 6-10 - Programming with JavaScript
+                Week 16-20 - Application Development
               </h2>
               <p className="w-full">
-                Introduction to Programming, Functions and OOP Programming, Data
-                Structures and Algorithms with JavaScript
+                Building Conversational Interfaces, Integrating Prompt
+                Engineering into Chatbots and Virtual Assistants, Testing and
+                Validation of Conversational Systems
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 16-20 - Working with React
+                Week 21-25 - Industry Integration and Emerging Trends
               </h2>
               <p className="w-full">
-                Introduction to React and React Ecosystem, UI Libraries,
-                Deployment & Unit Testing
+              Guest Lectures from Conversational AI Experts, Industry Workshops and Hands-on Sessions, 
+              Career Guidance and Job Placement Support, Networking Opportunities and Industry Partnerships
               </p>
             </div>
             <div className="place-self-start">
@@ -135,9 +138,8 @@ const PromptEngineering = () => {
                 Week 26-28 - Interview Preparation
               </h2>
               <p className="w-full">
-                Projects and Peer Programming - Work on collaborative projects
-                exploring all concepts and have pair programming sessions to
-                improve the skills
+              Mock Interviews and Technical Assessments, Resume Building and Portfolio Development,
+               Soft Skills Training and Personality Development, Job Search Strategies and Interview Tips
               </p>
             </div>
           </div>

@@ -14,6 +14,7 @@ import Hubspot from "./components/home-page/hubspot/hubspot.jsx";
 import Abouts from "./components/home-page/about.jsx";
 import Contact from "./components/home-page/contact.jsx";
 import Joinnow from "./components/home-page/joinnow.jsx";
+import Robotics from "./components/home-page/robotics.jsx";
 
 const Route = createBrowserRouter([
   {
@@ -59,6 +60,10 @@ const Route = createBrowserRouter([
       {
         path: "joinnow",
         element: <Joinnow />,
+      },
+      {
+        path: "robot",
+        element: <Robotics />,
       },
     ],
   },

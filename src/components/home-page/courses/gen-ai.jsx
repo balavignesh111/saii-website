@@ -14,25 +14,28 @@ const Gen = () => {
     <div className="w-full sm: pt-0 flex flex-col gap-6 items-center">
       <div className="flex flex-col lg:flex-row lg:justify-around w-[100%] bg-[#181D38] items-stretch justify-center gap-8 px-[5%] py-[2rem]">
         <div className="w-full lg:w-[45%] flex flex-col items-start justify-center gap-8 text-_light_blue">
-          <h1 className="lg:text-4xl sm:text-2xl text-xl">Generation AI Course</h1>
+          <h1 className="lg:text-4xl sm:text-2xl text-xl">
+            Generative AI Course
+          </h1>
           <p className="lg:text-xl sm:text-base">
-            Enroll now & Get trained in skills that are essential to secure your
-            dream job in our Generation AI course. The course offers 100%
-            Assured Placement, In leading tech companies with a salary No less
-            than 4 LPA. Feel free to get in touch with us for more details
+            Venture into the frontier of AI creativity and witness the birth of
+            novel content through machine intelligence. From crafting poetic
+            verses to generating stunning visuals, explore the realms of
+            generative AI and unleash your imagination like never before.
           </p>
           <span className="text-xl sm:text-base">Avail Your Seats Now!</span>
         </div>
 
         <div className="w-full lg:w-[35%] ">
-          
-            <Hubspot/>
+          <Hubspot />
         </div>
       </div>
 
       {/* course highlights */}
       <div className="w-full flex justify-center font-bold text-2xl ">
-        <h1 className="text-[1.25rem] sm:text-[1.5rem]">Generation AI Course Highlights</h1>
+        <h1 className="text-[1.25rem] sm:text-[1.5rem]">
+          Generation AI Course Highlights
+        </h1>
       </div>
       <div className="w-[80%] grid grid-cols-1 grid-rows-4 gap-[1rem] justify-items-center  sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:justify-items-stretch md:justify-between lg:grid-rows-1 lg:grid-cols-4">
         <div
@@ -74,74 +77,73 @@ const Gen = () => {
       </div>
       {/* Curriculum  */}
       <div className="w-[100%] px-[10%] 2xl:px-[20%]">
-      <div className="pt-4 mt-8 flex flex-col items-center justify-center gap-8 shadow-lg shadow-light_grey">
-        <div className="flex justify-center font-bold sm:text-2xl text-xl w-full lg:border-b-2">
-          <h1 className="border-b-2 lg:border-none">Generation AI Course Curriculum</h1>
+        <div className="pt-4 mt-8 flex flex-col items-center justify-center gap-8 shadow-lg shadow-light_grey">
+          <div className="flex justify-center font-bold sm:text-2xl text-xl w-full lg:border-b-2">
+            <h1 className="border-b-2 lg:border-none">
+              Generative AI Course Curriculum
+            </h1>
+          </div>
+
+          <div className="justify-items-center place-items-start grid grid-cols-1 lg:grid-cols-2 gap-[2.5rem] justify-center w-full p-4">
+            <div className="place-self-start">
+              <h2 className="text:base sm:text-xl font-semibold">
+                Week 1-5 - Introduction to Generative AI
+              </h2>
+              <p className="w-full">
+                Fundamentals of Generative Models, Autoencoders and Variational
+                Autoencoders, Introduction to Generative Adversarial Networks
+                (GANs), Image Generation with GANs
+              </p>
+            </div>
+            <div className="place-self-start ">
+              <h2 className="text:base sm:text-xl font-semibold">
+                Week 6-10 - Text Generation
+              </h2>
+              <p className="w-full">
+                Recurrent Neural Networks (RNNs) for Text Generation,
+                Transformer Models for Language Generation, Fine-Tuning
+                Pre-trained Language Models, Creative Writing with AI
+              </p>
+            </div>
+            <div className="place-self-start">
+              <h2 className="text:base sm:text-xl font-semibold">
+                Week 11-15 - Music Generation
+              </h2>
+              <p className="w-full">
+                MIDI Representation of Music, Sequence Generation with LSTM and
+                GRU Networks, Generative Music Models, Composition and Remixing
+                with AI
+              </p>
+            </div>
+            <div className="place-self-start">
+              <h2 className="text:base sm:text-xl font-semibold">
+                Week 16-20 - Image Synthesis
+              </h2>
+              <p className="w-full">
+                Style Transfer and Neural Style Transfer, Conditional Image
+                Generation, Image-to-Image Translation, Creating Art with AI
+              </p>
+            </div>
+            <div className="place-self-start">
+              <h2 className="text:base sm:text-xl font-semibold">
+                Week 21-25 - Industry Integration and Emerging Trends
+              </h2>
+              <p className="w-full">
+              Guest Lectures from AI Creativity Experts, Industry Workshops and Hands-on Sessions, 
+              Career Guidance and Job Placement Support, Networking Opportunities, and Industry Partnerships
+              </p>
+            </div>
+            <div className="place-self-start">
+              <h2 className="text:base sm:text-xl font-semibold">
+                Week 26-28 - Interview Preparation
+              </h2>
+              <p className="w-full">
+              Mock Interviews and Technical Assessments, Resume Building and Portfolio Development, 
+              Soft Skills Training and Personality Development, Job Search Strategies and Interview Tips
+              </p>
+            </div>
+          </div>
         </div>
-
-        <div className="justify-items-center place-items-start grid grid-cols-1 lg:grid-cols-2 gap-[2.5rem] justify-center w-full p-4">
-          <div className="place-self-start">
-            <h2 className="text:base sm:text-xl font-semibold">
-              Week 1-5 - Web Fundamentals
-            </h2>
-            <p className="w-full">
-              Introduction to Web, Developer Tools, Fundamentals of Web
-              Development using HTML, CSS. Version Control using Git & GitHub
-            </p>
-          </div>
-          <div className="place-self-start ">
-            <h2 className="text:base sm:text-xl font-semibold">
-
-              Week 11-15 - JavaScript on the Browser
-            </h2>
-            <p className="w-full">
-              Advanced JavaScript, Advanced CSS Working with DOM API & Local
-              Storage
-            </p>
-          </div>
-          <div className="place-self-start">
-            <h2 className="text:base sm:text-xl font-semibold">
-
-              Week 21-25 - Sever Side Development
-            </h2>
-            <p className="w-full">
-              HTTP Protocols, Node.js & Node.js architecture, Express.js,
-              MongoDB & Mongoose ORM, OAuth using Passport.js
-            </p>
-          </div>
-          <div className="place-self-start">
-            <h2 className="text:base sm:text-xl font-semibold">
-
-              Week 6-10 - Programming with JavaScript
-            </h2>
-            <p className="w-full">
-              Introduction to Programming, Functions and OOP Programming, Data
-              Structures and Algorithms with JavaScript
-            </p>
-          </div>
-          <div className="place-self-start">
-            <h2 className="text:base sm:text-xl font-semibold">
-
-              Week 16-20 - Working with React
-            </h2>
-            <p className="w-full">
-              Introduction to React and React Ecosystem, UI Libraries,
-              Deployment & Unit Testing
-            </p>
-          </div>
-          <div className="place-self-start">
-            <h2 className="text:base sm:text-xl font-semibold">
-
-              Week 26-28 - Interview Preparation
-            </h2>
-            <p className="w-full">
-              Projects and Peer Programming - Work on collaborative projects
-              exploring all concepts and have pair programming sessions to
-              improve the skills
-            </p>
-          </div>
-        </div>
-      </div>
       </div>
       {/* Instructors  */}
       <div className="w-[100%] px-[10%] 2xl:px-[20%]">
@@ -162,9 +164,9 @@ const Gen = () => {
                 <div className="w-full absolute top-[-2rem] left-0 right-0 flex justify-center">
                   <div className="flex items-center mt-1 w-[3.5rem] h-[3rem] justify-center space-x-3 text-_light_blue bg-[#F0FBFC]">
                     <button className="bg-[#1DC1D1] text-white p-2 ">
-                    <a href="https://www.linkedin.com/in/manojkumarkothandapani/">
-                      <FaLinkedin />
-                    </a>
+                      <a href="https://www.linkedin.com/in/manojkumarkothandapani/">
+                        <FaLinkedin />
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -191,7 +193,7 @@ const Gen = () => {
                 <div className="w-full  absolute top-[-2rem] left-0 right-0 flex justify-center">
                   <div className="flex items-center mt-1 w-[3.5rem] h-[3rem]  justify-center space-x-3 text-_light_blue bg-[#F0FBFC] ">
                     <button className="bg-[#1DC1D1] text-white p-2 ">
-                    <a href="https://www.linkedin.com/in/banu-a-v/">
+                      <a href="https://www.linkedin.com/in/banu-a-v/">
                         <FaLinkedin />
                       </a>
                     </button>
@@ -220,9 +222,9 @@ const Gen = () => {
                 <div className="w-full  absolute top-[-2rem] left-0 right-0 flex justify-center">
                   <div className="flex items-center mt-1 w-[3.5rem] h-[3rem]  justify-center space-x-3 text-_light_blue bg-[#F0FBFC]">
                     <button className="bg-[#1DC1D1] text-white p-2 ">
-                    <a href="https://www.linkedin.com/in/swarnamanjari-balasubramanian-028407177/">
-                      <FaLinkedin />
-                    </a>
+                      <a href="https://www.linkedin.com/in/swarnamanjari-balasubramanian-028407177/">
+                        <FaLinkedin />
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -241,8 +243,8 @@ const Gen = () => {
       </div>
       <div className="w-full px-[10%] pr-5 bg-[#181D38]">
         <Footer />
-      </div> 
       </div>
+    </div>
   );
 };
 

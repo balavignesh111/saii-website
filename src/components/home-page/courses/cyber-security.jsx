@@ -18,10 +18,9 @@ const CyberSecurity = () => {
             Cyber Security Course
           </h1>
           <p className="lg:text-xl sm:text-base">
-            Enroll now & Get trained in skills that are essential to secure your
-            dream job in our Cyber Security course. The course offers 100%
-            Assured Placement, In leading tech companies with a salary No less
-            than 4 LPA. Feel free to get in touch with us for more details
+          Safeguard digital ecosystems from the shadows of cyber threats with our comprehensive cybersecurity course.
+           Traverse the landscape of encryption, intrusion detection, and ethical hacking to fortify organizations
+            against modern cyber adversaries.
           </p>
           <span className="text-xl sm:text-base">Avail Your Seats Now!</span>
         </div>
@@ -87,57 +86,55 @@ const CyberSecurity = () => {
           <div className="justify-items-center place-items-start grid grid-cols-1 lg:grid-cols-2 gap-[2.5rem] justify-center w-full p-4">
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 1-5 - Web Fundamentals
+              Week 1-5 - Cybersecurity Fundamentals
               </h2>
               <p className="w-full">
-                Introduction to Web, Developer Tools, Fundamentals of Web
-                Development using HTML, CSS. Version Control using Git & GitHub
+              Introduction to Cybersecurity, Cyber Threat Landscape, Security Principles and Best Practices,
+               Cryptography Fundamentals, Network Security Basics
               </p>
             </div>
             <div className="place-self-start ">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 11-15 - JavaScript on the Browser
+                Week 6-10 - Cybersecurity Technologies and Tools
               </h2>
               <p className="w-full">
-                Advanced JavaScript, Advanced CSS Working with DOM API & Local
-                Storage
+              Firewalls and Intrusion Detection Systems (IDS), Secure Network Architecture, Identity and Access Management (IAM),
+               Endpoint Security Solutions, Security Information and Event Management (SIEM)
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 21-25 - Sever Side Development
+              Week 11-15 - Cybersecurity Operations
               </h2>
               <p className="w-full">
-                HTTP Protocols, Node.js & Node.js architecture, Express.js,
-                MongoDB & Mongoose ORM, OAuth using Passport.js
+              Incident Response and Management, Vulnerability Assessment and Penetration Testing (VAPT), Threat Intelligence and Analysis, 
+              Cybersecurity Policies and Compliance, Disaster Recovery and Business Continuity Planning (BCP)
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 6-10 - Programming with JavaScript
+              Week 16-20 - Cybersecurity in Practice
               </h2>
               <p className="w-full">
-                Introduction to Programming, Functions and OOP Programming, Data
-                Structures and Algorithms with JavaScript
+              Secure Coding Practices, Web Application Security, Cloud Security, Mobile Security, IoT Security
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 16-20 - Working with React
+              Week 21-25 - Emerging Trends 
               </h2>
               <p className="w-full">
-                Introduction to React and React Ecosystem, UI Libraries,
-                Deployment & Unit Testing
+              Blockchain Security, AI and Machine Learning in Cybersecurity, Quantum Computing and Cybersecurity, 
+              IoT Security Challenges and Solutions, Ethical Hacking and Red Team Operations
               </p>
             </div>
             <div className="place-self-start">
               <h2 className="text:base sm:text-xl font-semibold">
-                Week 26-28 - Interview Preparation
+              Week 26-28 - Career Development and Interview Preparation
               </h2>
               <p className="w-full">
-                Projects and Peer Programming - Work on collaborative projects
-                exploring all concepts and have pair programming sessions to
-                improve the skills
+              Resume Building and Portfolio Development, Job Search Strategies and Networking, 
+              Mock Interviews and Technical Assessments, Soft Skills Training and Personality Development
               </p>
             </div>
           </div>
