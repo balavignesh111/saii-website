@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Team from "../../../../public/img/team-one.png";
 import Teams from "../../../../public/img/team-two.png";
 import Teamm from "../../../../public/img/team-three.png";
-import Contact from "../../../../public/img/contact-us.jpg";
+// import Contact from "../../../../public/img/contact-us.jpg";
 import { NavLink } from "react-router-dom";
 import Hubspot from "../hubspot/hubspot";
 import Footer from "../footer.component";

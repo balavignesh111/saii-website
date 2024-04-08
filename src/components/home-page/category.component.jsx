@@ -42,7 +42,7 @@ const Course = () => {
                 className="w-[100%] h-100 object-contain hover:scale-[1.1] transition-scale duration-[500ms]"
               />
               <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.2rem] right-0">
-                Data Analyst
+                Data Analysis
               </span>
             </div>
           </div>

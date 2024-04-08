@@ -10,7 +10,7 @@ const Contact = () => {
     <div>
       <div className="w-full min-h-[100vh] mt-4 p-4 sm:w-full sm:p-4 px-[10%]">
         <div className="w-full flex flex-col justify-center items-start mt-4 sm:flex sm:flex-col sm:justify-start sm:items-start md:flex md:flex-col md:justify-start md:items-start lg:flex lg:flex-row lg:justify-center lg:items-center gap-2 px-[4%]">
-          <div className="w-[50%]">
+          <div className="w-[50%] ">
             <h1 className="w-[11rem] font-bold text-[2rem] text-_blue border-b-[3px] border-b-orange-400 transition-all 0.2s ease-in-out pt-[0rem]">
               Contact Us
             </h1>
@@ -52,8 +52,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="w-[40%] pb-[5rem]">
-            <img src={Contactus} alt="" />
+          <div className="w-[40%] pb-[5rem] ">
+            <img className="w-[100rem] lg:w-[50rem] h-[40rem]" src={Contactus} alt="" />
           </div>
         </div>
         <div className="w-full ">

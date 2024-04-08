@@ -1,6 +1,7 @@
 import Logo from "../../../public/img/logo.png";
 import Logos from "../../../public/img/Logo-two.png";
 import Lo from "../../../public/img/Logo-three.png";
+import Log from "../../../public/img/Logo-four.png";
 import { FaArrowRight } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoReorderThree } from "react-icons/io5";
@@ -26,6 +27,7 @@ const Navbar = () => {
           <img className="w-[35%]" src={Logo} alt="Suguna" />
           <img className="w-[20%] " src={Logos} alt="comptia" />
           <img className="w-[20%]" src={Lo} alt="skill" />
+          <img className="w-[25%]" src={Log} alt="Aws" />
         </div>
         <div
           className={`navbar-nav flex ${
@@ -40,7 +42,7 @@ const Navbar = () => {
             ABOUT
           </NavLink>
           <NavLink to="/robot" className="hover:text-[#1DC1D1]">
-            ROBOTICS
+            AI & ROBOTICS
           </NavLink>
           <div className="lg:h-[5rem] sm:h-[1.5rem] flex flex-row items-stretch gap-1 relative group">
             <div className="h-full flex flex-row items-center justify-center ">

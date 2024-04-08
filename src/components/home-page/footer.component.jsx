@@ -80,6 +80,12 @@ const Footer = () => {
             Our Institutions
           </h2>
           <div className="w-full flex flex-col gap-3">
+          <div className="flex items-center gap-2">
+              <FaChevronRight className="text-[0.7rem]" />
+              <p className="font-semibold text-[0.9rem]">
+                Suguna Groups
+              </p>
+            </div>
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem]" />
               <p className="font-semibold text-[0.9rem]">
@@ -99,7 +105,7 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem] inline-block" />
               <p className="font-semibold text-[0.9rem]">
-                Suguna Innovative Institute
+                Suguna Innovation Institute
               </p>
             </div>
           </div>
