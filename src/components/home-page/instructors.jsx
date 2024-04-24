@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 const Instructor = () => {
   return (
-    <div className="w-full mb-4 px-4 md:px-8 lg:px-24">
+    <div className="w-full mb-4 px-4 md:px-8 ">
       <div className="text-center mt-6">
         <span className="mb-3 flex items-center justify-center text-[1.5rem] font-semibold text-[#1DC1D1]">
           INSTRUCTORS
@@ -16,8 +16,8 @@ const Instructor = () => {
           Expert Instructors
         </h1>
       </div>
-      <div className="w-full flex flex-col md:flex-row lg:flex-row justify-between items-center mt-6">
-        <div className="w-full flex flex-col md:flex-row md:grid md:grid-cols-2 md:grid-rows-2 lg:flex mb-8 md:mb-0 gap-8 justify-between">
+      <div className="w-full flex flex-col md:flex-row lg:flex-row justify-evenly items-center mt-6">
+        <div className="w-full flex flex-col md:flex-row md:grid md:grid-cols-2 md:grid-rows-2 lg:flex mb-8 md:mb-0 gap-8 justify-evenly">
           <div className="w-full md:max-w-[20rem] flex flex-col md:mb-0">
             <div className="overflow-hidden">
               <img
