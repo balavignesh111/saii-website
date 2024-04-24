@@ -148,7 +148,7 @@ const Applied = () => {
         </div>
       </div>
       {/* Instructors  */}
-      <div className="w-[100%] px-[10%] 2xl:px-[20%]">
+      <div className="w-[100%] px-[10%] 2xl:px-[20%] ">
         <div className="shadow-lg shadow-light_grey w-full px-2">
           <h1 className="flex justify-center font-bold text-2xl border-b-2 ">
             Meet Your Instructors

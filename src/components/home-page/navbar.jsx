@@ -27,7 +27,7 @@ const Navbar = () => {
           <img className="w-[35%]" src={Logo} alt="Suguna" />
           <img className="w-[20%] " src={Logos} alt="comptia" />
           <img className="w-[20%]" src={Lo} alt="skill" />
-          <img className="w-[25%]" src={Log} alt="Aws" />
+          <img className="w-[30%]" src={Log} alt="Aws" />
         </div>
         <div
           className={`navbar-nav flex ${
