@@ -10,7 +10,6 @@ import Robotic from "./components/home-page/courses/robotic.jsx";
 import CyberSecurity from "./components/home-page/courses/cyber-security.jsx";
 import PromptEngineering from "./components/home-page/courses/prompt-engineering.jsx";
 import Gen from "./components/home-page/courses/gen-ai.jsx";
-import Hubspot from "./components/home-page/hubspot/hubspot.jsx";
 import Abouts from "./components/home-page/about.jsx";
 import Contact from "./components/home-page/contact.jsx";
 import Joinnow from "./components/home-page/joinnow.jsx";
