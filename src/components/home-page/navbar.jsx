@@ -10,11 +10,6 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
-  // const [isVisible, setIsVisible] = useState(false);
-
-  // const toggleManufacturingDropDown = () => {
-  //   setIsVisible(!isVisible);
-  // };
 
   return (
     <div className="flex flex-row justify-between pl-[2.5rem]  gap-4 w-full min-h-[4.5rem] lg:max-h-[5rem]">
@@ -24,10 +19,10 @@ const Navbar = () => {
         } lg:w-[100%] lg:flex lg:flex-row lg:items-center lg:justify-between`}
       >
         <div className="flex w-[100%] h-[5rem]  cursor-pointer  lg:max-w-[30%] ">
-          <img className="w-[35%]" src={Logo} alt="Suguna" />
-          <img className="w-[20%] " src={Logos} alt="comptia" />
-          <img className="w-[20%]" src={Lo} alt="skill" />
-          <img className="w-[30%]" src={Log} alt="Aws" />
+          <img className="w-[40%]" src={Logo} alt="Suguna" />
+          <img className="w-[25%] " src={Logos} alt="comptia" />
+          <img className="w-[25%]" src={Lo} alt="skill" />
+          <img className="w-[40%]" src={Log} alt="Aws" />
         </div>
         <div
           className={`navbar-nav flex ${

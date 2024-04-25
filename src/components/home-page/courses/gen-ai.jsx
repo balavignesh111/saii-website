@@ -146,99 +146,80 @@ const Gen = () => {
         </div>
       </div>
       {/* Instructors  */}
-      <div className="w-[100%] px-[10%] 2xl:px-[20%]">
-        <div className="shadow-lg shadow-light_grey w-full px-2">
+      <div className="w-full px-[10%] 2xl:px-[20%] ">
+        <div className="shadow-lg shadow-light_grey w-full px-2 ">
           <h1 className="flex justify-center font-bold text-2xl border-b-2 ">
             Meet Your Instructors
           </h1>
-          <div className="flex flex-col lg:flex-row justify-between items-center flex-wrap mt-8 gap-8 ">
-            <div className="w-full md:max-w-[20rem] flex flex-col justify-center items-center md:mb-0">
-              <div className="overflow-hidden">
-                <img
-                  className="h-[20rem] w-[20rem] object-fit scale-[1] hover:scale-[1.1] transition duration-[400ms]"
-                  src={Team}
-                  alt="one"
-                />
-              </div>
-              <div className="relative">
-                <div className="w-full absolute top-[-2rem] left-0 right-0 flex justify-center">
-                  <div className="flex items-center mt-1 w-[3.5rem] h-[3rem] justify-center space-x-3 text-_light_blue bg-[#F0FBFC]">
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
-                      <a href="https://www.linkedin.com/in/manojkumarkothandapani/">
-                        <FaLinkedin />
-                      </a>
-                    </button>
-                  </div>
-                </div>
-                <div className="w-[20rem] h-[5rem] lg:h-[7rem] flex flex-col text-center justify-center items-stretch bg-[#F0FBFC] mt-0">
-                  <h5 className="mb-0 font-bold text-xl lg:text-xl mt-2 lg:mt-4">
-                    Dr. K. Manojkumar S
-                  </h5>
-                  <small className="font-bold text-sm lg:text-base">
-                    Data Scientist
-                  </small>
-                </div>
-              </div>
-            </div>
+          <div className="flex flex-col lg:flex-nowrap justify-between items-center flex-wrap mt-8 gap-8 ">
 
-            <div className="w-full md:max-w-[20rem] flex flex-col justify-center items-center md:mb-0">
-              <div className="overflow-hidden">
-                <img
-                  className="h-[20rem] w-[20rem] object-fit scale-[1] hover:scale-[1.1] transition duration-[400ms]"
-                  src={Teams}
-                  alt="one"
-                />
-              </div>
-              <div className=" relative">
-                <div className="w-full  absolute top-[-2rem] left-0 right-0 flex justify-center">
-                  <div className="flex items-center mt-1 w-[3.5rem] h-[3rem]  justify-center space-x-3 text-_light_blue bg-[#F0FBFC] ">
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
-                      <a href="https://www.linkedin.com/in/banu-a-v/">
-                        <FaLinkedin />
-                      </a>
-                    </button>
-                  </div>
-                </div>
-                <div className="w-[20rem] h-[5rem] lg:h-[7rem] flex flex-col text-center justify-center bg-[#F0FBFC] mt-0">
-                  <h5 className="mb-0 font-bold text-xl lg:text-xl mt-2 md:mt-4">
-                    Banu S
-                  </h5>
-                  <small className="font-bold text-sm lg:text-base">
-                    CyberSecurity Expert and SME
-                  </small>
-                </div>
-              </div>
-            </div>
-
-            <div className="w-full md:max-w-[20rem] flex flex-col justify-center items-center md:mb-0">
-              <div className="overflow-hidden">
-                <img
-                  className="h-[20rem] w-[20rem] object-fit scale-[1.2] hover:scale-[1.3] transition duration-[400ms]"
-                  src={Teamm}
-                  alt="one"
-                />
-              </div>
-              <div className=" relative">
-                <div className="w-full  absolute top-[-2rem] left-0 right-0 flex justify-center">
-                  <div className="flex items-center mt-1 w-[3.5rem] h-[3rem]  justify-center space-x-3 text-_light_blue bg-[#F0FBFC]">
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
-                      <a href="https://www.linkedin.com/in/swarnamanjari-balasubramanian-028407177/">
-                        <FaLinkedin />
-                      </a>
-                    </button>
-                  </div>
-                </div>
-                <div className="w-[20rem] h-[5rem] lg:h-[7rem] flex flex-col text-center justify-center bg-[#F0FBFC] mt-0">
-                  <h5 className="mb-0 font-bold text-xl lg:text-xl mt-2 md:mt-4">
-                    Swarnamanjari B
-                  </h5>
-                  <small className="font-bold text-sm lg:text-base">
-                    Data Scientist
-                  </small>
-                </div>
-              </div>
-            </div>
+            <div className="flex flex-col md:flex-row bg-[#F0FBFC] h-full md:full xl:h-[22rem] items-center gap-8 bg-slate-200  p-7 rounded-lg">
+          <img
+            src={Team}
+            alt=""
+            className="h-[20rem] w-[30rem] md:w-[18rem] p-3 bg-white"
+          />
+          <div className="flex flex-col gap-5 md:gap-6 xl:gap-10">
+            <h1 className="md:text-2xl text-2xl xl:text-3xl font-bold">
+              {" "}
+              Dr. K. Manojkumar S
+            </h1>
+            <span className="text-3xl font-bold  text-[gray]">Data Scientist</span>
+            <p className="text-xl">
+              Mr. K. Manojkumar S, a double MS graduate from the USA and
+              trained scientist from Harvard School, Massachusetts, leads the
+              R&D efforts for product development and business expansion through
+              exports at Suguna Group Industries. He is also the Managing
+              Partner of Shri Atnu Pumps.
+            </p>
           </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row  h-full md:h-full xl:h-[22rem] items-center gap-8 bg-slate-100  p-7 rounded-lg">
+          <div className="flex flex-col gap-5 md:gap-6 xl:gap-10">
+            <h1 className="md:text-2xl text-2xl xl:text-3xl font-bold">
+              {" "}
+              Banu S
+            </h1>
+            <span className="text-3xl font-bold  text-[gray]">CyberSecurity Expert and SME</span>
+            <p className="text-xl">
+              Banu s, a double MS graduate from the USA and
+              trained scientist from Harvard School, Massachusetts, leads the
+              R&D efforts for product development and business expansion through
+              exports at Suguna Group Industries. He is also the Managing
+              Partner of Shri Atnu Pumps. 
+            </p>
+          </div>
+          <img
+            src={Teams}
+            alt=""
+            className="h-[20rem] w-[300px] md:w-[18rem] p-3 bg-white"
+          />
+        </div>
+          
+          <div className="flex flex-col md:flex-row bg-[#F0FBFC] h-full  items-center gap-8 bg-slate-200  p-7 rounded-lg">
+          <img
+            src={Teamm}
+            alt=""
+            className="h-[20rem] w-[30rem] md:w-[18rem] p-3 bg-white"
+          />
+          <div className="flex flex-col gap-5 md:gap-6 xl:gap-10">
+            <h1 className="md:text-2xl text-2xl xl:text-3xl font-bold">
+              {" "}
+              Swarnamanjari B
+            </h1>
+            <span className="text-3xl font-bold  text-[gray]">Data Scientist</span>
+            <p className="text-xl">
+             Swarnamanjari , a double MS graduate from the USA and
+              trained scientist from Harvard School, Massachusetts, leads the
+              R&D efforts for product development and business expansion through
+              exports at Suguna Group Industries. He is also the Managing
+              Partner of Shri Atnu Pumps.
+            </p>
+          </div>
+          </div>
+
+        </div>
         </div>
       </div>
       <div className="w-full px-[10%] pr-5 bg-[#181D38]">
