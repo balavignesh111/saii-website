@@ -29,12 +29,3 @@ function Form() {
 }
 
 export default Form;
-
-{/* <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-<script>
-  hbspt.forms.create({
-    region: "na1",
-    portalId: "45169054",
-    formId: "52b31789-e7e1-4d27-b55f-d12488c61d34"
-  });
-</script> */}

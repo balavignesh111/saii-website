@@ -3,7 +3,6 @@ import Teams from "../../../public/img/team-two.png";
 import Teamm from "../../../public/img/team-three.png";
 import Four from "../../../public/img/team-four.png";
 import { FaLinkedin } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
 
 const Instructor = () => {
   return (
@@ -21,7 +20,7 @@ const Instructor = () => {
           <div className="w-full md:max-w-[20rem] flex flex-col md:mb-0">
             <div className="overflow-hidden">
               <img
-                className="h-[20rem] w-[20rem] object-fit scale-[1] hover:scale-[1.1] transition duration-[400ms]"
+                className="h-[20rem] w-[30rem] object-fit scale-[1] hover:scale-[1.1] transition duration-[400ms]"
                 src={Team}
                 alt="one"
               />

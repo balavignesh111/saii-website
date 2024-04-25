@@ -25,7 +25,6 @@ const Contact = () => {
                     +91 9363043070
                   </span>
                   <br />
-                  {/* <span className="text-black text-[20px]">+91 9600860934</span> */}
                 </div>
               </div>
               <div className=" flex items-center gap-4 ">

@@ -43,7 +43,6 @@ const Navbar = () => {
             <div className="h-full flex flex-row items-center justify-center ">
               <p className="hover:text-[#1DC1D1]">COURSES</p>
               <RiArrowDropDownLine
-                // onClick={toggleManufacturingDropDown}
                 className="h-8 w-6 hover:text-[#1DC1D1]"
               />
             </div>

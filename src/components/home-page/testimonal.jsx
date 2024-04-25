@@ -46,7 +46,6 @@ const Testimonial = () => {
         arrows={false}
         pauseOnHover={false}
       >
-        {/* <div className="max-w-full mt-8 flex flex-col lg:flex-row lg:gap-8 lg:justify-start"> */}
         <div className="mt-8 lg:mb-0  lg:max-w-[80%] lg:min-h-[20rem]">
           <div className="bg-[#F0FBFC] h-[100%] p-6 rounded-lg shadow-lg">
             <div className="flex items-center mb-4">
@@ -124,9 +123,7 @@ const Testimonial = () => {
             </p>
           </div>
         </div>
-        {/* </div> */}
 
-        {/* <div className="max-w-full mt-8 flex flex-col lg:flex-row lg:gap-8 lg:justify-start"> */}
         <div className="mt-8 lg:mb-0 lg:max-w-[80%] lg:min-h-[20rem]">
           <div className="bg-[#F0FBFC] h-[100%] p-6 rounded-lg shadow-lg">
             <div className="flex items-center mb-4">
@@ -206,7 +203,6 @@ const Testimonial = () => {
           </div>
         </div>
 
-        {/* </div> */}
       </Carousel>
     </div>
   );

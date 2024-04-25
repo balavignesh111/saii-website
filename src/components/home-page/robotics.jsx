@@ -4,7 +4,7 @@ import VR from "../../../public/img/vr-icon.png";
 import Ai from "../../../public/img/ai-icon.png";
 import AI from "../../../public/img/Ai-connect.jpg";
 import Innovation from "../../../public/img/innovative-lab.jpg";
-import DIY from "../../../public/img/diy kit.webp";
+import DIY from "../../../public/img/Diy kit.jpg";
 import curriculum from "../../../public/img/curriculum.webp";
 import SIL from "../../../public/img/sil.jpg";
 import LMS from "../../../public/img/lms.jpg";
@@ -28,7 +28,6 @@ const Robotics = () => {
             21st-century skills (STEM, Coding, Robotics, AI, ML, IOT, AR & VR )
             necessary to thrive in the rapidly changing innovation landscape.
           </p>
-          {/* <span className="text-xl sm:text-base">Avail Your Seats Now!</span> */}
         </div>
 
         <div className="w-full lg:w-[35%] ">
