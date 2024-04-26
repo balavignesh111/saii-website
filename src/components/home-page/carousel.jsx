@@ -2,6 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Carous from "../../../public/img/carousel-1.jpg";
 import Carouse from "../../../public/img/carousel-2.jpg";
+import { NavLink } from "react-router-dom";
 
 const Slider = () => {
   const responsive = {
@@ -66,9 +67,11 @@ const Slider = () => {
                     <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#1DC1D1]">
                       Read More
                     </button>
+                    <NavLink to='joinnow'>
                     <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#fff] text-light_grey">
                       Join Now
                     </button>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -103,9 +106,11 @@ const Slider = () => {
                     <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#1DC1D1]">
                       Read More
                     </button>
+                    <NavLink to='joinnow'>
                     <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#fff] text-light_grey">
                       Join Now
                     </button>
+                    </NavLink>
                   </div>
                 </div>
               </div>

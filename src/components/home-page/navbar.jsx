@@ -18,12 +18,13 @@ const Navbar = () => {
           isClicked ? `flex-col` : `flex-row`
         } lg:w-[100%] lg:flex lg:flex-row lg:items-center lg:justify-between`}
       >
-        <div className="flex w-[100%] h-[5rem]  cursor-pointer  lg:max-w-[30%] ">
+        <div className="flex w-[100%] h-[5rem] cursor-pointer lg:max-w-[30%] ">
           <img className="w-[40%]" src={Logo} alt="Suguna" />
           <img className="w-[25%] " src={Logos} alt="comptia" />
           <img className="w-[25%]" src={Lo} alt="skill" />
           <img className="w-[40%]" src={Log} alt="Aws" />
         </div>
+        
         <div
           className={`navbar-nav flex ${
             isClicked ? `flex-col` : `flex-row hidden`
