@@ -22,7 +22,7 @@ const App = () => {
       <div className="w-full flex justify-center items-stretch px-[10%]">
         <Course />
       </div>
-      <div className="w-full flex justify-center items-stretch px-[10%]">
+      <div className="w-full flex justify-center items-stretch ">
         <Instructor />
       </div>
       <div className="w-full flex justify-center items-stretch ">

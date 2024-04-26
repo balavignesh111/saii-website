@@ -16,7 +16,7 @@ const Instructor = () => {
         </h1>
       </div>
       <div className="w-full flex flex-col md:flex-row lg:flex-row justify-evenly items-center mt-6">
-        <div className="w-full flex flex-col md:flex-row md:grid md:grid-cols-2 md:grid-rows-2 lg:flex mb-8 md:mb-0 gap-8 justify-evenly">
+        <div className="w-full lg:w-[80rem] flex flex-col md:flex-row md:grid md:grid-cols-2 md:grid-rows-2 lg:flex mb-8 md:mb-0 gap-8 justify-evenly">
           <div className="w-full md:max-w-[20rem] flex flex-col md:mb-0">
             <div className="overflow-hidden">
               <img
