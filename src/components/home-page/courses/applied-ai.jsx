@@ -168,11 +168,9 @@ const Applied = () => {
             </h1>
             <span className="text-3xl font-bold  text-[gray]">Data Scientist</span>
             <p className="text-xl">
-              Mr. K. Manojkumar S, a double MS graduate from the USA and
-              trained scientist from Harvard School, Massachusetts, leads the
-              R&D efforts for product development and business expansion through
-              exports at Suguna Group Industries. He is also the Managing
-              Partner of Shri Atnu Pumps.
+              Mr. K. Manojkumar S, Automation Anywhere Certified RPA (Automation Anywhere) Trainer, IABAC Certified Trainer for delivering Practitioner Courses, 
+              registered NSDC Trainer, Experienced Assistant Professor with a demonstrated history of working in the education management industry. Skilled in Python (Programming Language),
+               JFS, C++, Java, and Machine Learning.
             </p>
           </div>
           </div>
