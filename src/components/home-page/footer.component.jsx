@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,15 +21,18 @@ const Footer = () => {
           <div className="w-full flex flex-col gap-3">
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem]" />
-              <p className="font-semibold text-[0.9rem]">About Us</p>
+              <NavLink to='/about'>
+              <p className="font-semibold text-[0.9rem]">About Us</p></NavLink>
             </div>
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem] inline-block" />
-              <p className="font-semibold text-[0.9rem]">Contact Us</p>
+              <NavLink to='contact'>
+              <p className="font-semibold text-[0.9rem]">Contact Us</p></NavLink>
             </div>
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem] inline-block" />
-              <p className="font-semibold text-[0.9rem]">Privacy Policy</p>
+              <NavLink to='privacy'>
+              <p className="font-semibold text-[0.9rem]">Privacy Policy</p></NavLink>
             </div>
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem] inline-block" />
@@ -82,25 +86,25 @@ const Footer = () => {
           <div className="w-full flex flex-col gap-3">
           <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem]" />
-              <p className="font-semibold text-[0.9rem]">
+              <a href="https://www.sugunagroup.com" className="font-semibold text-[0.9rem]">
                 Suguna Groups
-              </p>
+              </a>
             </div>
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem]" />
-              <p className="font-semibold text-[0.9rem]">
+              <a href="https://sugunacas.ac.in" className="font-semibold text-[0.9rem]">
                 Suguna College of Arts and Science
-              </p>
+              </a>
             </div>
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem] inline-block" />
-              <p className="font-semibold text-[0.9rem]">
+              <a href="https://sugunace.com" className="font-semibold text-[0.9rem]">
                 Suguna College of Engineering
-              </p>
+              </a>
             </div>
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem] inline-block" />
-              <p className="font-semibold text-[0.9rem]">Suguna PIP School</p>
+              <a href="https://www.sugunapips.in" className="font-semibold text-[0.9rem]">Suguna PIP School</a>
             </div>
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem] inline-block" />
@@ -132,7 +136,7 @@ const Footer = () => {
       </div>
       <hr className="border-b-none border-t border-[rgba(256,256,256,0.1)] w-full" />
       <div className="w-full flex justify-center text-[#fff] pt-4">
-        <p>Copyright © 2023 Suguna Innovation Institute</p>
+        <p>Copyright © 2024 Suguna Innovation Institute</p>
       </div>
     </div>
   );

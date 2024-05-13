@@ -169,11 +169,9 @@ const Robotic = () => {
             </h1>
             <span className="text-3xl font-bold  text-[gray]">Data Scientist</span>
             <p className="text-xl">
-              Mr. K. Manojkumar S, a double MS graduate from the USA and
-              trained scientist from Harvard School, Massachusetts, leads the
-              R&D efforts for product development and business expansion through
-              exports at Suguna Group Industries. He is also the Managing
-              Partner of Shri Atnu Pumps.
+            Dr. K. Manojkumar S, Automation Anywhere Certified RPA (Automation Anywhere) Trainer, IABAC Certified Trainer for delivering Practitioner Courses, 
+              registered NSDC Trainer, Experienced Assistant Professor with a demonstrated history of working in the education management industry. Skilled in Python (Programming Language),
+               JFS, C++, Java, and Machine Learning.
             </p>
           </div>
           </div>
@@ -186,11 +184,10 @@ const Robotic = () => {
             </h1>
             <span className="text-3xl font-bold  text-[gray]">CyberSecurity Expert and SME</span>
             <p className="text-xl">
-              Banu s, a double MS graduate from the USA and
-              trained scientist from Harvard School, Massachusetts, leads the
-              R&D efforts for product development and business expansion through
-              exports at Suguna Group Industries. He is also the Managing
-              Partner of Shri Atnu Pumps. 
+            Banu s, As a cybersecurity professional with extensive experience in both industry and academia, 
+              I bring a unique blend of practical expertise and teaching prowess. With a focus on securing digital landscapes, 
+              I've honed my skills through hands-on work and by imparting knowledge in the classroom. 
+              Committed to staying abreast of evolving threats and technologies, I thrive on cultivating a secure digital environment while empowering others through education and mentorship.
             </p>
           </div>
           <img
@@ -213,11 +210,10 @@ const Robotic = () => {
             </h1>
             <span className="text-3xl font-bold  text-[gray]">Data Scientist</span>
             <p className="text-xl">
-             Swarnamanjari , a double MS graduate from the USA and
-              trained scientist from Harvard School, Massachusetts, leads the
-              R&D efforts for product development and business expansion through
-              exports at Suguna Group Industries. He is also the Managing
-              Partner of Shri Atnu Pumps.
+            Swarnamanjari , Experienced data scientist with a master's degree in Data Science, blending technical expertise with a passion for education.
+              Proven track record of leveraging advanced analytics to derive actionable insights. 
+             Skilled communicator adept at translating complex concepts into understandable terms, fostering engaging learning experiences. 
+             Dedicated to empowering others through teaching and mentorship in the dynamic field of data science.
             </p>
           </div>
           </div>
