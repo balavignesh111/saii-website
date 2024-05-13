@@ -32,7 +32,7 @@ const Abouts = () => {
           </p>
         </div>
         <div className="flex justify-center items-center">
-          <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="bg-white p-8 rounded-lg shadow-xl">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">
               Our Core Values
             </h2>

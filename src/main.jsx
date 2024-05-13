@@ -14,6 +14,7 @@ import Abouts from "./components/home-page/about.jsx";
 import Contact from "./components/home-page/contact.jsx";
 import Joinnow from "./components/home-page/joinnow.jsx";
 import Robotics from "./components/home-page/robotics.jsx";
+import Privacy from "./components/home-page/privacy.jsx";
 
 const Route = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const Route = createBrowserRouter([
       {
         path: "robot",
         element: <Robotics />,
+      },
+      {
+        path: "privacy",
+        element: <Privacy />,
       },
     ],
   },
