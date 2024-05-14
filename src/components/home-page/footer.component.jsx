@@ -26,12 +26,12 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem] inline-block" />
-              <NavLink to='contact'>
+              <NavLink to='/contact'>
               <p className="font-semibold text-[0.9rem]">Contact Us</p></NavLink>
             </div>
             <div className="flex items-center gap-2">
               <FaChevronRight className="text-[0.7rem] inline-block" />
-              <NavLink to='privacy'>
+              <NavLink to='/privacy'>
               <p className="font-semibold text-[0.9rem]">Privacy Policy</p></NavLink>
             </div>
             <div className="flex items-center gap-2">

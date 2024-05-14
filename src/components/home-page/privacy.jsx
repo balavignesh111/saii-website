@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './footer.component';
 
 const Privacy = () => {
   return (
@@ -37,9 +38,9 @@ const Privacy = () => {
             <p>We reserve the right to update or modify this Privacy Policy at any time without prior notice. We will notify you of any material changes by posting the updated policy on our website and updating the "Last Updated" date at the top of this page.</p>
           </section>
         </div>
-       
       </div>
     </div>
+     
   );
 };
 

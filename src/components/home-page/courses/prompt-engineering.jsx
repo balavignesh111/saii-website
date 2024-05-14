@@ -218,9 +218,6 @@ const PromptEngineering = () => {
         </div>
         </div>
       </div>
-      <div className="w-full px-[10%] pr-5 bg-[#181D38]">
-        <Footer />
-      </div>
     </div>
   );
 };

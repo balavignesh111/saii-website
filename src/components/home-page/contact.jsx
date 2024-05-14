@@ -64,9 +64,6 @@ const Contact = () => {
           </p>
         </div>
       </div>
-      <div className="w-full px-[7%] pr-5 bg-[#181D38]">
-        <Footer />
-      </div>
     </div>
   );
 };

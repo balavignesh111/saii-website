@@ -28,9 +28,6 @@ const App = () => {
       <div className="w-full flex justify-center items-stretch ">
         <Testimonial />
       </div>
-      <div className="w-full flex justify-center items-stretch  px-14 mt-6 bg-[rgb(24,29,56)]">
-        <Footer />
-      </div>
     </div>
   );
 };
