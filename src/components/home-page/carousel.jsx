@@ -32,7 +32,7 @@ const Slider = () => {
         responsive={responsive}
         infinite={true}
         autoPlaySpeed={2500}
-        autoPlay={true}
+        autoPlay={false}
       >
         <div className="relative">
           <div className="relative">
@@ -103,11 +103,11 @@ const Slider = () => {
                     redefining the way education is experienced.
                   </p>
                   <div className="flex gap-4">
-                    <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#1DC1D1]">
+                    <button className="h-1.5rem p-1 md:h-[3.5rem] md:w-[9rem] bg-[#1DC1D1]">
                       Read More
                     </button>
                     <NavLink to='joinnow'>
-                    <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#fff] text-light_grey">
+                    <button className="h-1.5rem p-1 md:h-[3.5rem] md:w-[9rem] bg-[#fff] text-light_grey">
                       Join Now
                     </button>
                     </NavLink>

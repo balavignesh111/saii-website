@@ -146,7 +146,7 @@ const PromptEngineering = () => {
         </div>
       </div>
       {/* Instructors  */}
-      <div className="w-full px-[10%] 2xl:px-[20%] ">
+      <div className="w-full px-[10%] py-4 2xl:px-[20%] ">
         <div className="shadow-lg shadow-light_grey w-full px-2 ">
           <h1 className="flex justify-center font-bold text-2xl border-b-2 ">
             Meet Your Instructors
