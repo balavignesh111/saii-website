@@ -5,7 +5,7 @@ import "../../index.css"
 const Card =()=>{
   return(
     <div className="w-[90%]">
-    <div className="w-full grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 gap-4 mt-16 justify-center">
+    <div className="w-full grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 gap-4 mt-4 justify-center">
       <div className="bg-[#f0fbfc] hover:bg-[#06bbcc] group hover:text-white hover:translate-y-[-1rem] transition-all duration-500 ease-in-out flex flex-col justify-start items-center gap-4 p-[1.5rem]">
         <div className="text-[4rem] text-[#06bbcc] group-hover:text-white">
           <FaGraduationCap />

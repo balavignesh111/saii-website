@@ -73,7 +73,6 @@ const Route = createBrowserRouter([
   },
 ]);
 
-const data = {};
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={Route} />
