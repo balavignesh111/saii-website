@@ -135,8 +135,9 @@ const Footer = () => {
         </div>
       </div>
       <hr className="border-b-none border-t border-[rgba(256,256,256,0.1)] w-full" />
-      <div className="w-full flex justify-center text-[#fff] pt-4">
+      <div className="w-full flex text-[#fff] pt-4 justify-around">
         <p>Copyright © 2024 Suguna Innovation Institute</p>
+        <p>Designed and Developed by <a href="https://www.linkedin.com/in/sathish-s-a09172118/">Sathish</a></p>
       </div>
     </div>
   );
