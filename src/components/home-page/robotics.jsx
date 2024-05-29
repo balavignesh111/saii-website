@@ -17,6 +17,7 @@ import Form from "./hubspot/robotics-form";
 const Robotics = () => {
   return (
     <div class="flex flex-col justify-center items-center gap-8 px-4 sm:px-0 ">
+
       <div className="flex flex-col lg:flex-row lg:justify-around w-[100%] bg-[#181D38] items-stretch justify-center gap-8 px-[5%] py-[2rem]">
         <div className="w-full lg:w-[45%] flex flex-col items-start justify-center gap-8 text-_light_blue">
           <h1 className="lg:text-4xl sm:text-2xl text-xl">WHO WE ARE</h1>
