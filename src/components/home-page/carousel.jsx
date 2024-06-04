@@ -39,7 +39,7 @@ const Slider = () => {
             <img
               src={Carous}
               alt=""
-              className="w-full h-auto lg:h-[830px] md:h-[630px] sm:h-[430px]" loading="lazy"
+              className="w-full h-auto lg:h-[830px] md:h-[630px] sm:h-[430px]" loading="eager"
             />
             <div className="absolute top-0 left-0 w-full h-full bg-imageOverlay"></div>
           </div>
@@ -50,20 +50,20 @@ const Slider = () => {
               md:ml-0  text-_light_blue"
               >
                 <div className="flex flex-col gap-4">
-                  <h5 className="uppercase text-sm md:text-xl font-bold mb-3 text-[#1DC1D1]">
+                  <h5 className="uppercase text-md md:text-xl font-bold mb-3 text-[#1DC1D1]">
                     Explore, Learn, Excel.
                   </h5>
-                  <h1 className="text-md md:text-6xl font-extrabold ">
+                  <h1 className="text-lg md:text-6xl font-extrabold ">
                     Your Passport to Knowledge
                   </h1>
-                  <p className="text-xs md:text-lg mb-4 pb-2 ">
+                  <p className="text-sm md:text-lg mb-4 pb-2 ">
                     In a rapidly evolving world, learning is the key to
                     unlocking new horizons and realizing your full potential.
                     With our innovative platform, we offer you a personalized
                     passport to explore the vast landscape of knowledge, at your
                     own pace and on your terms.
                   </p>
-                  <div className="flex gap-4">
+                  <div className="gap-4 hidden md:flex">
                     <button className="h-1.5rem md:h-[3.5rem] md:w-[9rem] bg-[#1DC1D1]">
                       Read More
                     </button>
@@ -84,7 +84,7 @@ const Slider = () => {
             <img
               src={Carouse}
               alt=""
-              className="w-full h-auto lg:h-[830px] md:h-[630px] sm:h-[430px]" loading="lazy"
+              className="w-full h-auto lg:h-[830px] md:h-[630px] sm:h-[430px]" loading="eager"
             />
             <div className="absolute top-0 left-0 w-full h-full bg-imageOverlay"></div>
           </div>
@@ -92,17 +92,17 @@ const Slider = () => {
             <div className="container">
               <div className="flex flex-col  lg:w-[40rem] lg:ml-[5rem] lg:mt-[10rem] md:flex-row md:mt-[4rem] sm:mt-5 md:ml-0 sm:ml-3 text-_light_blue">
                 <div className="flex flex-col gap-4">
-                  <h5 className="uppercase text-sm md:text-xl font-bold mb-3 text-[#1DC1D1]">
+                  <h5 className="uppercase text-md md:text-xl font-bold mb-3 text-[#1DC1D1]">
                     Best Online Courses
                   </h5>
-                  <h1 className="text-md md:text-6xl font-extrabold">
+                  <h1 className="text-lg md:text-6xl font-extrabold">
                     Learning Made Personal, Results Made Remarkable.
                   </h1>
-                  <p className="text-sm md:text-lg mb-4 pb-2">
+                  <p className="text-md md:text-lg mb-4 pb-2">
                     Together, we'll explore, learn, and grow, all while
                     redefining the way education is experienced.
                   </p>
-                  <div className="flex gap-4">
+                  <div className=" gap-4 hidden md:flex">
                     <button className="h-1.5rem p-1 md:h-[3.5rem] md:w-[9rem] bg-[#1DC1D1]">
                       Read More
                     </button>
