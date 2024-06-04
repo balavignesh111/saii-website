@@ -39,7 +39,7 @@ const Slider = () => {
             <img
               src={Carous}
               alt=""
-              className="w-full h-auto lg:h-[830px] md:h-[630px] sm:h-[430px]"
+              className="w-full h-auto lg:h-[830px] md:h-[630px] sm:h-[430px]" loading="lazy"
             />
             <div className="absolute top-0 left-0 w-full h-full bg-imageOverlay"></div>
           </div>
@@ -84,7 +84,7 @@ const Slider = () => {
             <img
               src={Carouse}
               alt=""
-              className="w-full h-auto lg:h-[830px] md:h-[630px] sm:h-[430px]"
+              className="w-full h-auto lg:h-[830px] md:h-[630px] sm:h-[430px]" loading="lazy"
             />
             <div className="absolute top-0 left-0 w-full h-full bg-imageOverlay"></div>
           </div>

@@ -11,7 +11,6 @@ import LMS from "../../../public/img/lms.jpg";
 import Robo from "../../../public/img/robo-lab.png";
 import IOT from "../../../public/img/ai-lab.png";
 import AR from "../../../public/img/ar-lab.png";
-import Footer from "./footer.component";
 import Form from "./hubspot/robotics-form";
 
 const Robotics = () => {
@@ -54,25 +53,25 @@ const Robotics = () => {
         {/* <!-- Card Component Grid --> */}
         <div class="grid grid-cols-2 gap-4">
           <div class="bg-[#F0FBFC] hover:bg-[#5dcad4] group hover:text-white hover:translate-y-[-1rem] transition-all duration-500 ease-in-out rounded-lg p-4">
-            <img class="h-[7rem] mx-auto" src={Robotic} alt="" />
+            <img class="h-[7rem] mx-auto" loading='lazy' src={Robotic} alt="" />
             <h2 class="font-semibold text-xl text-center group-hover:text-white">
               Robotics
             </h2>
           </div>
           <div class="bg-[#F0FBFC] hover:bg-[#5dcad4] group hover:text-white hover:translate-y-[-1rem] transition-all duration-500 ease-in-out rounded-lg p-4">
-            <img class="h-[8rem] mx-auto" src={Coding} alt="" />
+            <img class="h-[8rem] mx-auto" loading='lazy' src={Coding} alt="" />
             <h2 class="font-semibold text-xl text-center group-hover:text-white">
               Coding
             </h2>
           </div>
           <div class="bg-[#F0FBFC] hover:bg-[#5dcad4] group hover:text-white hover:translate-y-[-1rem] transition-all duration-500 ease-in-out rounded-lg p-4">
-            <img class="h-[8rem] mx-auto" src={VR} alt="" />
+            <img class="h-[8rem] mx-auto" loading='lazy' src={VR} alt="" />
             <h2 class="font-semibold text-xl text-center group-hover:text-white">
               AR & VR
             </h2>
           </div>
           <div class="bg-[#F0FBFC] hover:bg-[#5dcad4] group hover:text-white hover:translate-y-[-1rem] transition-all duration-500 ease-in-out rounded-lg p-4">
-            <img class="h-[8rem] mx-auto" src={Ai} alt="" />
+            <img class="h-[8rem] mx-auto" loading='lazy' src={Ai} alt="" />
             <h2 class="font-semibold text-xl text-center group-hover:text-white">
               AI & ML
             </h2>
@@ -109,7 +108,7 @@ const Robotics = () => {
           <div className="w-full md:w-1/3 flex justify-center mb-8 md:mb-0">
             <div className="bg-[#f0fbfc] rounded-lg shadow-lg p-6 flex flex-col items-center">
               <img
-                className="w-36 h-[200px] object-cover mb-4"
+                className="w-36 h-[200px] object-cover mb-4" loading='lazy'
                 src={IOT}
                 alt=""
               />
@@ -128,7 +127,7 @@ const Robotics = () => {
           <div className="w-full md:w-1/3 flex justify-center">
             <div className="bg-[#f0fbfc] rounded-lg shadow-lg p-6 flex flex-col items-center">
               <img
-                className="w-36 h-[200px] object-cover mb-4"
+                className="w-36 h-[200px] object-cover mb-4" loading='lazy'
                 src={AR}
                 alt=""
               />
@@ -157,7 +156,7 @@ const Robotics = () => {
             <img
               src={AI}
               alt="AI Connect"
-              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500"
+              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500" loading='lazy'
             />
             <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.02rem] right-0">
               AI Connect
@@ -167,7 +166,7 @@ const Robotics = () => {
             <img
               src={Innovation}
               alt="Innovation Lab"
-              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500"
+              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500" loading='lazy'
             />
             <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.02rem] right-0">
               Innovation Lab
@@ -177,7 +176,7 @@ const Robotics = () => {
             <img
               src={DIY}
               alt="DIY Kit"
-              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500"
+              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500" loading='lazy'
             />
             <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.2rem] right-0">
               DIY Kit
@@ -188,7 +187,7 @@ const Robotics = () => {
             <img
               src={curriculum}
               alt="Curriculum"
-              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500"
+              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500" loading='lazy'
             />
             <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.02rem] right-0">
               Curriculum
@@ -198,7 +197,7 @@ const Robotics = () => {
             <img
               src={SIL}
               alt="SIL"
-              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500"
+              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500" loading='lazy'
             />
             <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.02rem] right-0">
               School Innovation League
@@ -208,7 +207,7 @@ const Robotics = () => {
             <img
               src={LMS}
               alt="LMS"
-              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500"
+              className="w-full h-[300px] object-cover rounded-lg hover:scale-[1.1] transition-scale duration-500" loading='lazy'
             />
             <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.02rem] right-0">
               Learning Management System
