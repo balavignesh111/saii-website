@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-[40%] pb-[5rem] ">
-            <img className="w-[100rem] lg:w-[50rem] h-[40rem]" loading="lazy" src={Contactus} alt="" />
+            <img className="w-[100rem] lg:w-[50rem] h-[40rem]" src={Contactus} alt="" />
           </div>
         </div>
         <div className="w-full ">

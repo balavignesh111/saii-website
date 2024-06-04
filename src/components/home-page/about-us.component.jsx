@@ -9,7 +9,7 @@ const About = () => {
           <img
             src={aboutImage}
             alt="about_image"
-            className="w-full h-full object-cover" loading="lazy"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>

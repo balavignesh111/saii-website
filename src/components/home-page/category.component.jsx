@@ -18,7 +18,7 @@ const Course = () => {
             <img
               src={webDevelopment}
               alt="webDevelopmentImg"
-              className="w-[100%] h-auto object-contain hover:scale-[1.1] transition-scale duration-[500ms]" loading="lazy"
+              className="w-[100%] h-auto object-contain hover:scale-[1.1] transition-scale duration-[500ms]"
             />
             <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.2rem] right-0">
               Web Development
@@ -29,7 +29,7 @@ const Course = () => {
               <img
                 src={dataScience}
                 alt="dataScience"
-                className="w-[100%] h-auto object-contain hover:scale-[1.1] transition-scale duration-[500ms]" loading="lazy"
+                className="w-[100%] h-auto object-contain hover:scale-[1.1] transition-scale duration-[500ms]"
               />
               <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.25rem] right-0">
                 Data Science
@@ -39,7 +39,7 @@ const Course = () => {
               <img
                 src={dataAnalyst}
                 alt="dataAnalyst"
-                className="w-[100%] h-100 object-contain hover:scale-[1.1] transition-scale duration-[500ms]" loading="lazy"
+                className="w-[100%] h-100 object-contain hover:scale-[1.1] transition-scale duration-[500ms]"
               />
               <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.2rem] right-0">
                 Data Analysis
@@ -51,7 +51,7 @@ const Course = () => {
           <img
             src={cyberSecurity}
             alt="cyberSecurity"
-            className="w-[100%] h-auto object-cover hover:scale-[1.1] transition-scale duration-[500ms]" loading="lazy"
+            className="w-[100%] h-auto object-cover hover:scale-[1.1] transition-scale duration-[500ms]"
           />
           <span className="p-[0.75rem] bg-[#fff] text-black font-semibold absolute bottom-[0.2rem] right-0">
             Cyber Security
