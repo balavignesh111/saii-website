@@ -14,7 +14,7 @@ const Contact = () => {
             <h1 className="w-[11rem] font-bold text-[2rem] text-_blue border-b-[3px] border-b-orange-400 transition-all 0.2s ease-in-out pt-[0rem]">
               Contact Us
             </h1>
-            <h1 className="text-black text-[2rem] w-[25rem] text-start font-bold">
+            <h1 className="text-black hidden md:block text-[2rem] w-[25rem] text-start font-bold">
               If you are any doubts please contact us our institute in any time.
             </h1>
             <div className="w-full flex flex-col justify-start items-start pt-[3rem]  pb-[7rem] gap-10">
@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-[40%] pb-[5rem] ">
-            <img className="w-[100rem] lg:w-[50rem] h-[40rem]" src={Contactus} alt="" />
+            <img className="hidden md:block lg:w-[50rem] h-[40rem]" src={Contactus} alt="" />
           </div>
         </div>
         <div className="w-full ">
